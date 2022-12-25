@@ -1,6 +1,6 @@
 export default function handler(req, res) {
   const tokenId = req.query.tokenId;
-  const image_url = "https://github.com/erenyusufduran/nft-collection/tree/master/client/public/cryptodevs";
+  const image_url = "https://github.com/erenyusufduran/nft-collection/tree/master/client/public/cryptodevs/";
 
   if (tokenId >= 20) {
     res.status(404).json({ error: "NOT FOUND" });
